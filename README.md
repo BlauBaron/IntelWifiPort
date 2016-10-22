@@ -7,8 +7,9 @@ Intel Wireless WiFi Link 3160ac/ 7260ac/ 7265ac
 
 
 ## Driver Status
-Initial Commit of BSD code. 
-I will be working on this project over the week end
+Initial Commit of BSD code. (SEE Wiki For More Details).    
+I will be working on this project over week ends. It has 
+low importance for me right now.
 
 ## Credits
 
