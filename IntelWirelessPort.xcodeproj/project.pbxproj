@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10BE21FB1D7496FC00DB906D /* IntelWirelessPort.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 10BE21FA1D7496FC00DB906D /* IntelWirelessPort.hpp */; };
+		10BE21FD1D7496FC00DB906D /* IntelWirelessPort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 10BE21FC1D7496FC00DB906D /* IntelWirelessPort.cpp */; };
+		10BE220A1D750E5000DB906D /* driver in Resources */ = {isa = PBXBuildFile; fileRef = 10BE22081D750E4F00DB906D /* driver */; };
+		10BE220B1D750E5000DB906D /* iwmfw in Resources */ = {isa = PBXBuildFile; fileRef = 10BE22091D750E5000DB906D /* iwmfw */; };
+		10BE220E1D7524DB00DB906D /* net80211 in Resources */ = {isa = PBXBuildFile; fileRef = 10BE220D1D7524DB00DB906D /* net80211 */; };
+		10BE22111D7525B900DB906D /* linux-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BE220F1D7525B900DB906D /* linux-config.h */; };
+		10BE22121D7525B900DB906D /* linux-porting.h in Headers */ = {isa = PBXBuildFile; fileRef = 10BE22101D7525B900DB906D /* linux-porting.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10BE21F71D7496FB00DB906D /* IntelWirelessPort.kext */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntelWirelessPort.kext; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BE21FA1D7496FC00DB906D /* IntelWirelessPort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IntelWirelessPort.hpp; sourceTree = "<group>"; };
+		10BE21FC1D7496FC00DB906D /* IntelWirelessPort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IntelWirelessPort.cpp; sourceTree = "<group>"; };
+		10BE21FE1D7496FC00DB906D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10BE22081D750E4F00DB906D /* driver */ = {isa = PBXFileReference; lastKnownFileType = folder; path = driver; sourceTree = "<group>"; };
+		10BE22091D750E5000DB906D /* iwmfw */ = {isa = PBXFileReference; lastKnownFileType = folder; path = iwmfw; sourceTree = "<group>"; };
+		10BE220D1D7524DB00DB906D /* net80211 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = net80211; sourceTree = "<group>"; };
+		10BE220F1D7525B900DB906D /* linux-config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "linux-config.h"; sourceTree = "<group>"; };
+		10BE22101D7525B900DB906D /* linux-porting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "linux-porting.h"; sourceTree = "<group>"; };
+		10BE22131D75267700DB906D /* posix_endian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = posix_endian.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10BE21F31D7496FB00DB906D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BE21ED1D7496FB00DB906D = {
+			isa = PBXGroup;
+			children = (
+				10BE21F91D7496FB00DB906D /* IntelWirelessPort */,
+				10BE21F81D7496FB00DB906D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10BE21F81D7496FB00DB906D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10BE21F71D7496FB00DB906D /* IntelWirelessPort.kext */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10BE21F91D7496FB00DB906D /* IntelWirelessPort */ = {
+			isa = PBXGroup;
+			children = (
+				10BE220F1D7525B900DB906D /* linux-config.h */,
+				10BE22101D7525B900DB906D /* linux-porting.h */,
+				10BE220D1D7524DB00DB906D /* net80211 */,
+				10BE22081D750E4F00DB906D /* driver */,
+				10BE22091D750E5000DB906D /* iwmfw */,
+				10BE21FA1D7496FC00DB906D /* IntelWirelessPort.hpp */,
+				10BE21FC1D7496FC00DB906D /* IntelWirelessPort.cpp */,
+				10BE21FE1D7496FC00DB906D /* Info.plist */,
+				10BE22131D75267700DB906D /* posix_endian.h */,
+			);
+			path = IntelWirelessPort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10BE21F41D7496FB00DB906D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BE21FB1D7496FC00DB906D /* IntelWirelessPort.hpp in Headers */,
+				10BE22111D7525B900DB906D /* linux-config.h in Headers */,
+				10BE22121D7525B900DB906D /* linux-porting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10BE21F61D7496FB00DB906D /* IntelWirelessPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BE22011D7496FC00DB906D /* Build configuration list for PBXNativeTarget "IntelWirelessPort" */;
+			buildPhases = (
+				10BE21F21D7496FB00DB906D /* Sources */,
+				10BE21F31D7496FB00DB906D /* Frameworks */,
+				10BE21F41D7496FB00DB906D /* Headers */,
+				10BE21F51D7496FB00DB906D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntelWirelessPort;
+			productName = IntelWirelessPort;
+			productReference = 10BE21F71D7496FB00DB906D /* IntelWirelessPort.kext */;
+			productType = "com.apple.product-type.kernel-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10BE21EE1D7496FB00DB906D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mohamed Essedik Najd";
+				TargetAttributes = {
+					10BE21F61D7496FB00DB906D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 10BE21F11D7496FB00DB906D /* Build configuration list for PBXProject "IntelWirelessPort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 10BE21ED1D7496FB00DB906D;
+			productRefGroup = 10BE21F81D7496FB00DB906D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10BE21F61D7496FB00DB906D /* IntelWirelessPort */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10BE21F51D7496FB00DB906D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BE220A1D750E5000DB906D /* driver in Resources */,
+				10BE220B1D750E5000DB906D /* iwmfw in Resources */,
+				10BE220E1D7524DB00DB906D /* net80211 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10BE21F21D7496FB00DB906D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10BE21FD1D7496FC00DB906D /* IntelWirelessPort.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		10BE21FF1D7496FC00DB906D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		10BE22001D7496FC00DB906D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		10BE22021D7496FC00DB906D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = IntelWirelessPort/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULE_NAME = git.najd.im.IntelWirelessPort;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = git.najd.im.IntelWirelessPort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Debug;
+		};
+		10BE22031D7496FC00DB906D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.0.0d1;
+				INFOPLIST_FILE = IntelWirelessPort/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MODULE_NAME = git.najd.im.IntelWirelessPort;
+				MODULE_VERSION = 1.0.0d1;
+				PRODUCT_BUNDLE_IDENTIFIER = git.najd.im.IntelWirelessPort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = kext;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10BE21F11D7496FB00DB906D /* Build configuration list for PBXProject "IntelWirelessPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BE21FF1D7496FC00DB906D /* Debug */,
+				10BE22001D7496FC00DB906D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BE22011D7496FC00DB906D /* Build configuration list for PBXNativeTarget "IntelWirelessPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BE22021D7496FC00DB906D /* Debug */,
+				10BE22031D7496FC00DB906D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10BE21EE1D7496FB00DB906D /* Project object */;
+}
